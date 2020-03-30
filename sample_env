@@ -13,9 +13,9 @@ HOST_MACHINE_SECURE_HOST_PORT=443
 HOST_MACHINE_MYSQL_PORT=3306
 
 # MySQL root user password
-MYSQL_ROOT_PASSWORD=tiger
+MYSQL_ROOT_PASSWORD=techwithus
 
 # Database settings: Username, password and database name
 MYSQL_USER=docker
 MYSQL_PASSWORD=docker
-MYSQL_DATABASE=exam-marker
+MYSQL_DATABASE=sample-database
