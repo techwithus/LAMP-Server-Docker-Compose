@@ -57,7 +57,6 @@ RUN apt-get update \
     && ln -s /usr/bin/python3 python
 
 # Create test php file to check if working
-RUN touch /var/www/html/index.php
-RUN echo "<?php\n phpinfo(); \n?>" > /var/www/html/index.php
+RUN git clone https://github.com/dev-techwithus/sample-php.git /var/www/html/
 
 RUN apt-get autoremove -y
